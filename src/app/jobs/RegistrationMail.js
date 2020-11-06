@@ -12,5 +12,7 @@ export default {
       text: "Hey, man!",
       html: `Olá ${user.name}, bem vindo ao sistema de filas do venancio!`,
     });
+
+    console.log("email enviado");
   },
 };
